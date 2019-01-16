@@ -9,6 +9,15 @@ body {
 
 }
 
+@media only screen and (max-width: 1024px) {
+
+	.container {
+		max-width: 100%;
+		margin: 0 auto;
+
+	}
+}
+
 /* HEADER CONTENT */
 
 .header {
@@ -28,6 +37,18 @@ body {
 	position: relative; 
 	top: 1rem;
 
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.content {
+		position: relative;
+		top: 0;
+	}
+
+	.header {
+		height: 22rem;
+	}
 }
 
 .header .left {
@@ -61,6 +82,22 @@ body {
 	font-size: 2rem;
 	line-height: 1.2;
 	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.headline {
+		position: relative;
+		top: 6rem;
+		float: right;
+		background-color: white;
+		padding: 0.75rem 4rem 0.75rem 4rem;
+		margin-right: 2rem;
+	}
+
+	.headline span {
+		font-size: 1.33rem;
+	}
 }
 
 
