@@ -6,6 +6,7 @@ body {
 .container {
 	max-width: 960px;
 	margin: 0 auto;
+
 }
 
 /* HEADER CONTENT */
@@ -15,6 +16,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 30rem;
+	margin-bottom: 3rem;
+
 }
 
 .content {
@@ -64,13 +67,13 @@ body {
 /* BODY CONTENT */
 
 .container .products {
-	 position: relative;
-	 top: 3rem;
 }
 .products {
 	display: flex;
 	height: 8rem;
 	justify-content: center;
+	margin-bottom: 3rem;
+	
 }
 
 .exams img {
@@ -98,17 +101,13 @@ body {
 }
 
 
-
-
-.container .company-info {
-	position: relative;
-	top: 14rem;
-}
+/* COMPANY INFO CONTAINER */
 
 .company-info {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;	
 }
+
 
 .info h3 {
 	background-color: cadetblue;
@@ -134,9 +133,20 @@ body {
 	padding-left: 2.5%;
 }
 
-.container .footer{
-
+/* FOOTER CONTENT */
+.footer {
+	background-color: azure;
 }
 
-.footer {
+.footer-content {
+	display: flex;
+	align-items: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.footer-content img {
+	height: 1.5rem;
+	padding-left: 4rem;
+	padding-right: 1rem;
 }
