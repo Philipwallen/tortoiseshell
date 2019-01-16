@@ -178,12 +178,14 @@ body {
 	.product {
 		padding-left: 6rem;
 		padding-bottom: 1.54rem;
-		height: 6rem;
+		
 	}
 
 	.product-bottom {
 		font-size: 0.77rem;
 	}
+
+
 
 }
 
@@ -218,6 +220,32 @@ body {
 	display: flex;
 	margin-bottom: 5rem;
 	justify-content: center;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.container .company-info {
+		display: block;
+		width: 100%;
+		text-align: center;
+
+	}
+
+
+	.paragraph {
+		font-size: 0.77rem;
+		margin-bottom: 4rem;
+		text-align: left;
+		width: 100%;
+	}
+
+	.info-title {
+		margin-left: 0%;
+		margin-right: 0%;
+		width: 100%;
+		text-align: center;
+	}
 
 }
 
@@ -259,4 +287,16 @@ body {
 	height: 1.5rem;
 	padding-left: 4rem;
 	padding-right: 1rem;
+}
+
+/* MEDIA QUERY MOBILE */
+@media only screen and (max-width: 480px) {
+
+	.footer-content span {
+		display: none;
+	}
+
+	.footer-content {
+		justify-content: center;
+	}
 }
