@@ -8,6 +8,8 @@ body {
 	margin: 0 auto;
 }
 
+/* HEADER CONTENT */
+
 .header {
 	background-image: url("../../resources/images/glasses-bg.png");
 	background-size: cover;
@@ -56,4 +58,85 @@ body {
 	font-size: 2rem;
 	line-height: 1.2;
 	text-transform: uppercase;
+}
+
+
+/* BODY CONTENT */
+
+.container .products {
+	 position: relative;
+	 top: 3rem;
+}
+.products {
+	display: flex;
+	height: 8rem;
+	justify-content: center;
+}
+
+.exams img {
+	width: 3.5rem;
+
+}
+
+.fittings img {
+	width: 5rem;
+}
+
+.delivery img {
+	width: 5rem;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	padding-right: 6rem;
+	text-align: center;
+}
+
+.product .sub-title {
+	flex-grow: 1;
+}
+
+
+
+
+.container .company-info {
+	position: relative;
+	top: 14rem;
+}
+
+.company-info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info h3 {
+	background-color: cadetblue;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0.5rem 0 0.5rem 1.25rem;
+	width: 10rem;
+}
+
+.info p {
+	padding-top: 1rem;
+}
+
+.philosophy {
+	padding-right: 2.5%;
+}
+
+.philosophy p {
+	width: 35%;
+	padding-bottom: 5rem;
+}
+.appointments {
+	padding-left: 2.5%;
+}
+
+.container .footer{
+
+}
+
+.footer {
 }
