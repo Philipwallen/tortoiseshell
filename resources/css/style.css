@@ -94,6 +94,10 @@ body {
 		color: white;
 		padding-right: 2rem;
 	}
+
+	.header .left span {
+		display: none;
+	}
 }
 .left img {
 	height: 1.5rem;
@@ -162,12 +166,11 @@ body {
 
 .products {
 	display: flex;
-	height: 8rem;
 	justify-content: center;
 	margin-bottom: 3rem;
 	
 }
-
+/* MEDIA QUERY MOBILE */
 @media only screen and (max-width: 480px) {
 
 	.products {
@@ -182,9 +185,13 @@ body {
 	}
 
 	.product-bottom {
+		margin-top: 1.54rem;
 		font-size: 0.77rem;
 	}
 
+	.product-bottom .fast{
+		margin-bottom: 3.77rem ;
+	}
 
 
 }
@@ -223,28 +230,39 @@ body {
 
 }
 
+.container-mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 480px) {
 
 	.container .company-info {
-		display: block;
-		width: 100%;
-		text-align: center;
-
+		display: none;
 	}
 
-
-	.paragraph {
-		font-size: 0.77rem;
+	.mobile-container {
+		display: flex;
+		flex-direction: column;
 		margin-bottom: 4rem;
-		text-align: left;
-		width: 100%;
 	}
 
-	.info-title {
-		margin-left: 0%;
-		margin-right: 0%;
-		width: 100%;
+	.mobile-title {
+		display: flex;
+		flex-direction: column;
+		background-color: cadetblue;
+		margin-bottom: 1rem;
 		text-align: center;
+		padding: 0.5rem 0;
+		color: white;
+		font-weight: bold;
+	}
+
+	.mobile-left {
+		margin-bottom: 4rem;
+	}
+
+	.mobile-paragraph {
+		font-size: 0.77rem;
 	}
 
 }
@@ -271,6 +289,7 @@ body {
 .info-left {
 	margin-right: 5%;
 }
+
 /* FOOTER CONTENT */
 .footer {
 	background-color: azure;
